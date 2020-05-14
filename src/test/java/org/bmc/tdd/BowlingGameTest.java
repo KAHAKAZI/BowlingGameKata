@@ -15,5 +15,8 @@ class BowlingGameTest {
         Assertions.assertThat(theGame.getScore(1,3)).isEqualTo(4);
     }
 
-
+    @Test
+    public void shouldBeStrike(){
+        Assertions.assertThat(theGame.isStrike("X")).isEqualTo(true);
+    }
 }

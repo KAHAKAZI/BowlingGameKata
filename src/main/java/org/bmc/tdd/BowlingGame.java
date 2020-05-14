@@ -7,6 +7,8 @@ public class BowlingGame {
     }
 
 
-
+    public boolean isStrike(String input) {
+        return "X".equals(input);
+    }
 
 }
