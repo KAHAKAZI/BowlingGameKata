@@ -2,7 +2,11 @@ package org.bmc.tdd;
 
 public class BowlingGame {
 
-    public int getScore() {
-        return -1;
+    public int getScore(int first, int second) {
+        return first + second;
     }
+
+
+
+
 }
